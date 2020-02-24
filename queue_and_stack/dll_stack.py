@@ -1,3 +1,6 @@
+
+
+
 import sys
 sys.path.append('../doubly_linked_list')
 from doubly_linked_list import DoublyLinkedList
@@ -15,4 +18,5 @@ class Stack:
         pass
 
     def len(self):
+        return self.storage.__len__()
         pass
